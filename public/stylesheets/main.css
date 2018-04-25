@@ -1,0 +1,25 @@
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail{
+    padding: 0;
+    min-height: 20em;
+}
+
+.thumbnail .caption-full{
+    padding: 9px;
+}
+
+.delete-form{
+    display: inline;
+}
+
+#display{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#size{
+    max-height: 150px;
+}
