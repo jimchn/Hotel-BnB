@@ -51,5 +51,5 @@ app.use("/campgrounds/:id/comments", commentRoutes);
 
 
 app.listen(process.env.PORT, process.env.IP, function(){
-    console.log("HotelListing has begun");
+    console.log("HotelBnB has begun");
 });

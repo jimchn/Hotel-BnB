@@ -26,7 +26,7 @@ router.post("/register", function(req, res){
             return res.redirect("register");
         }
         passport.authenticate("local")(req, res, function(){
-            req.flash("success", "Welcome to HotelListing" + " " + user.username);
+            req.flash("success", "Welcome to HotelBnB" + " " + user.username);
             res.redirect("/campgrounds");
         });
     });
