@@ -1,4 +1,4 @@
-# HotelListing
+# HotelBnB
 • Designed full stack web application using MongoDB, Express, & Node.js that
 allows users to submit hotels up for booking
 
